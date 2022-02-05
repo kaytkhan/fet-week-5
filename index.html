@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <title>Document</title>
+    <style>
+        .option-box:hover {
+            background-color: #f5f5f5;
+            opacity: 0.8;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="card-header">
+            TIC TAC TOE
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">TIC TAC TOE begginer friendly game</h5>
+            <a id="reset" href="#" class="btn btn-primary">Reset</a>
+        </div>
+    </div>
+
+    <div class="container mt-5" id="turnAlertdiv1"> </div>
+
+    <div class="container mt-5" id="winAlertdiv"> </div>
+
+    <div class="container mt-5">
+        <div class="row w-50 mx-auto">
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-4 border border-dark option-box" id="1">.</div>
+                    <div class="col-4 border border-dark option-box" id="2">.</div>
+                    <div class="col-4 border border-dark option-box" id="3">.</div>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-4 border border-dark option-box" id="4">.</div>
+                    <div class="col-4 border border-dark option-box" id="5">.</div>
+                    <div class="col-4 border border-dark option-box" id="6">.</div>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-4 border border-dark option-box" id="7">.</div>
+                    <div class="col-4 border border-dark option-box" id="8">.</div>
+                    <div class="col-4 border border-dark option-box" id="9">.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
